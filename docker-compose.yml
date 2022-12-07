@@ -1,0 +1,31 @@
+version: "3.3"
+services:
+  mern-client-react:
+    image: yuanningliu/mern-client-image
+    stdin_open: true
+    ports: 
+      - "3000:3000"
+    networks:
+      - mern-app
+  mern-server-express:
+    image: yuanningliu/mern-server-image
+    ports:
+      - "4000:4000"
+    networks:
+      - mern-app
+  #   depends_on:
+  #     - mongo
+  # mongo:
+  #   image: mongo:6.0
+  #   ports:
+  #     - "27017:27017"
+  #   networks:
+  #     - mern-app
+  #   volumes:
+  #     - mongo-data:/data/db
+networks:
+  mern-app:
+    driver: bridge
+# volumes:
+#   mongo-data:
+#     driver: local
