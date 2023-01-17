@@ -26,3 +26,5 @@ docker-compose up
 <img width="1412" alt="Screen Shot 2023-01-17 at 5 29 04 PM" src="https://user-images.githubusercontent.com/45492838/213036056-ecc1eb86-9b28-40d0-a85a-f6fda4566e27.png">
 
 <img width="1402" alt="Screen Shot 2023-01-17 at 5 29 22 PM" src="https://user-images.githubusercontent.com/45492838/213036076-7405531d-2983-42fc-87a5-f61c1f62aefd.png">
+
+Followed the [video](https://www.youtube.com/watch?v=VsUzmlZfYNg&t=3057s), pretty good one, learned a lot!
